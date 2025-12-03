@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    color: #333333;
+}
+section{
+    margin: 80px 5vw;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+label{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.form {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button, input[type="file"] {
+    background-color: #bb386a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.file .name {
+    flex: 2;
+    font-weight: bold;
+}
+
+.file .size {
+    flex: 1;
+    color: #666;
+    text-align: center;
+}
+
+.file .date {
+    flex: 1;
+    color: #666;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+.download{
+    color: #6936f4;
+}
+.delete {
+    color: #f44336;
+}
+
+#uploadStatus {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
